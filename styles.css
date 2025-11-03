@@ -1,0 +1,75 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dm-sans {
+  font-family: "DM Sans";
+  font-optical-sizing: auto;
+  font-weight:400 500; 
+  font-style:normal;
+}
+font-face {
+    font-family: "DM Sans";
+    font-style: italic;
+    font-weight: 400 500;
+}
+body {
+    margin: var(--black);
+    color: var(--black);
+    font-family:"DM Sans";
+    display: grid;
+    font-size: 18px;
+    background: var(--off-white);
+}
+.ExtraLarge-Text {
+    font-size: 4rem;
+    font-weight: 500;
+}
+.Large-Text{
+    font-size: 2.75rem;
+    font-weight: 500;
+
+}
+.Medium-Text{
+    font-size: 2.35rem;
+    font-weight: 500;
+}
+.Small-Text{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.bento-grid {
+    display: grid;
+    background-color: aliceblue;
+    padding: 32px;
+    border-radius: 21px;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+
+:root {
+--primary: (254, 88%, 90%)
+--primary-base: (256, 67%, 59%)
+--accent-subdued: (31, 66%, 93%)
+--accent-base: (39, 100%, 71%)
+--white: hsl (0, 0%, 100%)
+--off-white: hsl (0, 0%, 7%)
+--black: (0, 0%, 7%)
+}
+color 1 {
+    color:
+
+}
+
+/*Purple 100: hsl(254, 88%, 90%)
+Purple 500: hsl(256, 67%, 59%)
+Yellow 100: hsl(31, 66%, 93%)
+Yellow 500: hsl(39, 100%, 71%)
+White: hsl(0, 0%, 100%)
+Black: hsl(0, 0%, 7%) */
