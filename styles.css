@@ -81,10 +81,10 @@ background-color: var(--primary);
 background-color: var(accent-base);
 }
 
-.bento-grid .item:nth-child(2).
-.bento-grid .item:nth-child(2).
-
-
+.bento-grid .item:nth-child(1) {
+    grid-area: box;
+    padding: 6rem, 2rem, 0 2.5rem;
+}
 
 
 
@@ -101,14 +101,10 @@ background-color: var(accent-base);
 /* White */
 --off-white: hsl (0, 0%, 7%)
 /* Off White */
---black: (0, 0%, 7%)
-/* Black */
-}
-color 1 {
-    color:
+--black: (0, 0%, 7%)}
+/* Black *
 
-}
-
+/* 
 /*Purple 100: hsl(254, 88%, 90%)
 Purple 500: hsl(256, 67%, 59%)
 Yellow 100: hsl(31, 66%, 93%)
